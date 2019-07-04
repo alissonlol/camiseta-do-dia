@@ -1,0 +1,26 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+#content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+#verde {
+  color: #6fbc90;
+}
+
+#roxa{
+  color: #6600ff;
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+    <title>Qual a camiseta de hoje?</title>
+  </head>
+  <body>
+    <div id="content">
+        <h1>A camiseta de hoje é <span id="{{data}}">{{ data|upper }}</span></h1>
+	<img src="/static/camisa-{{data}}.png">
+    </div>
+  </body>
+</html>
